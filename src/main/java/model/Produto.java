@@ -9,15 +9,15 @@ public class Produto {
 
     @Id /* define a variavel id como primary key */
     @GeneratedValue /* torna o id auto-increment*/
-    private int id;
+    private long id;
     private String nome;
     private double valor;
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
